@@ -6,6 +6,7 @@ plugins {
 dependencies {
     constraints {
         api 'org.slf4j:slf4j-api:1.7.30'
+        api 'org.slf4j:slf4j-simple:1.7.30'
         api 'junit:junit:4.12'
 
         runtime 'org.postgresql:postgresql:42.2.5'

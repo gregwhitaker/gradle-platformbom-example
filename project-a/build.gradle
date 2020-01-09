@@ -9,5 +9,7 @@ dependencies {
 
     implementation 'org.slf4j:slf4j-api'
 
+    runtime 'org.slf4j:slf4j-simple'
+
     testImplementation 'junit:junit'
 }
