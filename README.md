@@ -1,4 +1,10 @@
 # gradle-platformbom-example
+Example of how to use a BOM in [Gradle](https://www.gradle.org) to share dependency versions across projects.
+
+## Building the Example
+Run the following command to build the example:
+
+    ./gradlew clean build --scan
 
 ## License
 MIT License
