@@ -1,0 +1,5 @@
+rootProject.name = 'gradle-platformbom-example'
+include 'platform'
+include 'project-a'
+include 'project-b'
+
