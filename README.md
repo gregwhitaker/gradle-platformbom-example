@@ -30,7 +30,7 @@ Use the Gradle Build Scan created by your build to check out the dependency reso
 
 2. Select the `Dependencies` tab in the right-hand menu.
 
-3. Notice in the image below that the `platform` dependencies have been included as constraints and the `slf4j-api` dependency's select reason is `Constraint`.
+3. Notice in the image below that the `platform` dependencies have been included as constraints and the `slf4j-api` dependency's selection reason is `Constraint`.
 
     ![alt text](gradle-enterprise-deps.png)
 
