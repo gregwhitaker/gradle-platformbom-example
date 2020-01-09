@@ -1,6 +1,13 @@
 # gradle-platformbom-example
 Example of how to use a BOM in [Gradle](https://www.gradle.org) to share dependency versions across projects.
 
+## Project Structure
+This example contains the following projects:
+
+- [platform](platform) - The BOM project that defines the shared dependencies.
+- [project-a](project-a) - A project that uses the platform BOM.
+- [project-b](project-b) - A project that uses the platform BOM.
+
 ## Building the Example
 Run the following command to build the example:
 
