@@ -24,6 +24,18 @@ If successful, you will see that your build published a build scan:
 This build's build scan can be found at: [https://gradle.com/s/o4xloi6jkmnck](https://gradle.com/s/o4xloi6jkmnck)
 
 ## Gradle Build Scan
+Use the Gradle Build Scan created by your build to check out the dependency resolution.
+
+1. Navigate to the build scan URL in a web browser.
+
+2. Select the `Dependencies` tab in the right-hand menu.
+
+3. Notice in the image below that the `platform` dependencies have been included as constraints and the `slf4j-api` dependency's select reason is `Constraint`.
+
+    ![alt text](gradle-enterprise-deps.png)
+
+## Bugs and Feedback
+For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/gradle-platformbom-example/issues).
 
 ## License
 MIT License
