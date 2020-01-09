@@ -1,16 +1,13 @@
 plugins {
-    id 'java'
+    id 'java-platform'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
-
+// https://docs.gradle.org/current/userguide/java_platform_plugin.html#java_platform_plugin
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    constraints {
+        api 'org.slf4j:slf4j-api:1.7.30'
+        api 'junit:junit:4.12'
+
+        runtime 'org.postgresql:postgresql:42.2.5'
+    }
 }
