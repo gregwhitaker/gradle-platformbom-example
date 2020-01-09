@@ -9,9 +9,21 @@ This example contains the following projects:
 - [project-b](project-b) - A project that uses the platform BOM.
 
 ## Building the Example
-Run the following command to build the example:
+Run the following command to build the example and create a Gradle Build Scan:
 
     ./gradlew clean build --scan
+    
+If successful, you will see that your build published a build scan:
+
+    BUILD SUCCESSFUL in 1s
+    11 actionable tasks: 10 executed, 1 up-to-date
+    
+    Publishing build scan...
+    https://gradle.com/s/o4xloi6jkmnck
+        
+This build's build scan can be found at: [https://gradle.com/s/o4xloi6jkmnck](https://gradle.com/s/o4xloi6jkmnck)
+
+## Gradle Build Scan
 
 ## License
 MIT License
