@@ -1,4 +1,6 @@
 # gradle-platformbom-example
+![Build](https://github.com/gregwhitaker/gradle-platformbom-example/workflows/Build/badge.svg)
+
 Example of how to use a BOM in [Gradle](https://www.gradle.org) to share dependency versions across projects.
 
 ## Project Structure
